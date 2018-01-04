@@ -1,0 +1,85 @@
+/* body */
+body {
+  width: 750px;
+  margin: 20px auto;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 18px;
+  line-height: 50px;
+  color: #777;
+  margin-top: 60px;
+}
+
+.header {
+	padding: 10px;
+	text-align: center;
+	border-style: dashed;
+	border-width: 3px 3px 3px 3px;
+	border-color: #777;
+}
+
+.logo {
+	position: relative;
+}
+
+#instruction {
+	font-size: 12px;
+	margin-top: -29px;
+	font-style: italic;
+	color: #999;
+}
+.container {
+	width: 100%;
+	position: relative;
+}
+
+img {
+	position: absolute;
+}
+
+.whos-that {
+	z-index: 1;
+	top: 75px;
+  	left: 21px;
+}
+
+.it-me {
+	z-index: 2;
+	top: 75px;
+  	left: 21px;
+}
+
+.left-section {
+	float: left;
+	border-style: dashed;
+	border-width: 0px 0px 0px 3px;
+	border-color: #777;
+	width: 48%;
+	display: inline-block;
+	height: 550px;
+	text-align: center;
+	padding: 10px;
+
+}
+
+
+.right-section {
+	padding: 10px;
+	float: right;
+	border-style: dashed;
+	border-width: 0px 3px 0px 3px;
+	border-color: #777;
+	width: 45%;
+	display: inline-block;
+	height: 550px;
+	text-align: center;
+
+}
+
+footer {
+	padding: 30px 0;
+	clear: both;
+	border-style: dashed;
+	border-width: 3px;
+	border-color: #777;
+	text-align: center;
+}

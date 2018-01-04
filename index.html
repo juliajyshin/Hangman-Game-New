@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF=8">
+	<title>Pokemon Hangman</title>
+
+  <!-- To reduce browser inconsistencies -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- To give page CSS Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <img class="logo" src="assets/images/hangmanlogo.jpg" width="300" alt="">
+  </div>
+
+<div class="container">
+	<section class="left-section">
+		<div class="panel-title">
+			<h1>Who's That Pokemon?</h1>
+			<img class="whos-that" src="assets/images/whosthat.jpg" width="350px">
+			<img class="it-me" src="assets/images/whosthat.jpg"  width="350px">
+		</div>
+
+	</section>
+
+	<section class="right-section">
+		<div class="game-start">
+			<p>Pokemon Name to Guess</p>
+			<p id="instruction">(Press any key to get started!)</p>
+			<div id="word-to-guess"></div>
+		</div>
+		<div class="wrong-guesses-count">
+		<div class="guesses-left-count">
+			<p>Guesses Left: 		
+			<div id="guesses-left"></div>
+		</div>
+		<div class="wins-count">
+			<p>Wins: </p>
+			<div id="wins-here">0</div>
+		</div>
+		<div class="loses-count">
+			<p>Loses: </p>
+			<span id="loses">0</span>
+		</div>
+		<div class="letters-already-guessed">
+			<p>Letters Already Guessed: </p>
+			<div id="letters-guessed"></div>
+		</div>
+	</section>
+</div>
+
+
+<!-- footer -->
+  <footer>
+      Copyright &copy; 2017 Julia Shin
+      <embed src="assets/audio/pokemon_gameboy_music.m4a" autostart="true" loop="true" width="2" height="0"></embed>
+  </footer>
+
+</body>
+
+
+<!-- Link to my Javascript Game file -->
+<script src="assets/javascript/game.js"></script>
+
+</html>
