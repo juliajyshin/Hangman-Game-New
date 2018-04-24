@@ -8,6 +8,12 @@ This is a simple computer game of hangman featuring Pokemon. It features dynamic
 
 ![An image of the game](assets/images/hangman.png)
 
+## Technologies
+
+* HTML
+* CSS
+* Javascript
+
 ## Author
 * https://github.com/juliajyshin
 * [Buy me a coffee ☕️](https://ko-fi.com/juliajverie)
