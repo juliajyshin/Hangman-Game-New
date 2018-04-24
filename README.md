@@ -1,1 +1,1 @@
-# Hangman-Game-New
+# Pokemon Hangman
